@@ -1,8 +1,11 @@
 import {  combineReducers } from "redux"
-import {Reduce} from "./Reduce"
-import {Last} from "./Reduce"
+
+import {Last,Head,Reduce,Text} from "./Reduce"
+
 
 export const combine = combineReducers({
     first:Reduce,
-    last:Last
+    last:Last,
+    head:Head,
+    text:Text
 })

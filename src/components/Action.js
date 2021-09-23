@@ -12,5 +12,17 @@ export function Last(e) {
         payLoad: e
     }
 }
+export function Head(e) {
+    return {
+        type:"head",
+        payLoad: e
+    }
+}
+export function Text(e) {
+    return {
+        type:"text",
+        payLoad: e
+    }
+}
 
 

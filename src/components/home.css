@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.kini{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color:rgba(88, 143, 88, 0.315) ;
+   
+}
+.hello{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    color: rgb(31, 92, 31);
+}
+.single{
+    background-color: green;
+    position: absolute;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    right: 10%;
+    top: 5%;
+    color: white;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bolder ;
+}
+.nshow{
+    display: none ;
+}
+.show{
+  display: block;
+}
+button{
+   margin-top: 50px;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   width: 20%;
+   padding: 10px;
+   cursor: pointer;
+   text-transform: capitalize;
+   outline: none;
+}
+.rev{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+}
+.prin{
+    border: none;
+    background-color: green;
+    color: white;
+}
+#cont{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.356);
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.103);
+    position: relative;
+    width: 90vw;
+    margin-top: 0%;
+    margin-left: 5%;
+    padding: 10px;
+}
+.imagi{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   margin-top: 5%;
+}
+.imagi img{
+    width: 25%;
+    height: 80%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.boy{
+    position: absolute;
+    left: -50%;
+    transform: translateX(-50%);
+    animation: boy 1.5s forwards;
+    animation-delay: 1s;
+}
+@keyframes boy {
+    100%{
+        left: 50%;
+    }
+}
+
+.card{
+    position: absolute;
+    left: 50%;
+    top: -100%;
+    transform: translateX(-50%);
+    animation: card 1s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes card {
+    100%{
+        top: 0;
+    }
+}
+.flower{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: flower 1s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@keyframes flower {
+    100%{
+        opacity: 1;
+    }
+}
+@media(max-width:450px){
+    .single{
+        font-size: 16px;
+    }
+    .hello{
+        font-size: 18px;
+    }
+    button{
+        width: 40%;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .imagi{
+        width: 100%;
+        height: 200px;
+       margin-top: 25%;
+    }
+    .imagi img{
+        width: 50%;
+     
+    }
+}

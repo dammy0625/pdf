@@ -1,8 +1,224 @@
 .blue{
-    border: 2px solid blue;
+    border-bottom: 1px solid blue;
     outline: none;
+    box-shadow: 0px 0px 12px rgb(78, 78, 156);
+    padding: 5px;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
 }
 .red{
-    border: 2px solid red;
+    border-bottom: 1.9px solid red;
     outline: none;
+    box-shadow: 1px 2px 12px rgb(224, 101, 101);
+    padding: 5px;
+    border-radius: 5px;
+    color: red;
+}
+.sve{
+opacity: .5;
+border: 2px solid rgb(48, 97, 48);
+color: rgb(48, 97, 48);
+}
+.save{
+    opacity: 1;
+    background-color: rgb(48, 97, 48);
+    color: white;
+    border: none;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.form{
+    
+    position: absolute;
+   left: 5%;
+   top: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    color: rgb(48, 97, 48);
+    margin-bottom: 10px;
+}
+
+input{
+    width: 300px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 2px solid rgb(48, 97, 48);
+    outline: none;
+    backdrop-filter: blur(3);
+    background-color: transparent;
+    color: green;
+}
+.image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   margin-top: 15%;
+}
+.image img{
+    width: 25%;
+    height: 80%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.area{
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    border: 1px solid rgb(48, 97, 48);
+    padding: 10px;
+    outline: none;
+    color: rgb(3, 70, 3);
+}
+.boy{
+    position: absolute;
+    left: -50%;
+    transform: translateX(-50%);
+    animation: boy 1.5s forwards;
+    animation-delay: 1s;
+}
+@keyframes boy {
+    100%{
+        left: 50%;
+    }
+}
+
+.card{
+    position: absolute;
+    left: 50%;
+    top: -100%;
+    transform: translateX(-50%);
+    animation: card 1s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes card {
+    100%{
+        top: 0;
+    }
+}
+.flower{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: flower 1s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@keyframes flower {
+    100%{
+        opacity: 1;
+    }
+}
+.pdf{
+    color: rgb(72, 145, 72);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 6%;
+    position: absolute;
+    top: 30px;
+    font-size: 30px;
+}
+.keep{
+    color: rgb(48, 97, 48);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+@media(max-width:450px){
+    .sve{
+        opacity: .5;
+        border: 2px solid rgb(48, 97, 48);
+        color: rgb(48, 97, 48);
+        margin-top: 130%;
+        margin-bottom: 20px;
+        }
+        .save{
+            margin-top: 130%;
+        margin-bottom: 20px;
+        }
+    .area{
+        width: 80%;
+        position: absolute;
+        top: 81%;
+        right: 50%;
+        transform: translateX(50%);
+        border: 1px solid rgb(48, 97, 48);
+        padding: 10px;
+        outline: none;
+    }
+        
+    .form{
+       left: 50%;
+       transform: translateX(-50%);
+       top: 50%;
+        width: 70%;
+        
+    }
+    label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: capitalize;
+        color: rgb(48, 97, 48);
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    
+    input{
+        width: 100%;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1.5px solid rgb(48, 97, 48);
+        outline: none;
+    }
+    .pdf{
+        top: 40px;
+        font-size: 20px;
+    }
+    .keep{
+        top: 12%;
+        left: 7%;
+        width: 90%;
+        font-size: 13px;
+        font-weight: 400;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .image{
+        width: 100%;
+        height: 200px;
+        
+       margin-top: 35%;
+    }
+    .image img{
+        width: 50%;
+     
+    }
 }
