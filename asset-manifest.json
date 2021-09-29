@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/pdf/static/css/main.c60b1686.chunk.css",
+    "main.js": "/pdf/static/js/main.2f2ee0f5.chunk.js",
+    "main.js.map": "/pdf/static/js/main.2f2ee0f5.chunk.js.map",
+    "runtime-main.js": "/pdf/static/js/runtime-main.e467acbc.js",
+    "runtime-main.js.map": "/pdf/static/js/runtime-main.e467acbc.js.map",
+    "static/js/2.0191dde4.chunk.js": "/pdf/static/js/2.0191dde4.chunk.js",
+    "static/js/2.0191dde4.chunk.js.map": "/pdf/static/js/2.0191dde4.chunk.js.map",
+    "static/js/3.c3e19d86.chunk.js": "/pdf/static/js/3.c3e19d86.chunk.js",
+    "static/js/3.c3e19d86.chunk.js.map": "/pdf/static/js/3.c3e19d86.chunk.js.map",
+    "index.html": "/pdf/index.html",
+    "static/css/main.c60b1686.chunk.css.map": "/pdf/static/css/main.c60b1686.chunk.css.map",
+    "static/js/2.0191dde4.chunk.js.LICENSE.txt": "/pdf/static/js/2.0191dde4.chunk.js.LICENSE.txt",
+    "static/media/download-10.42443b78.png": "/pdf/static/media/download-10.42443b78.png",
+    "static/media/download-11.93346c6f.png": "/pdf/static/media/download-11.93346c6f.png",
+    "static/media/download-12.55932ea2.png": "/pdf/static/media/download-12.55932ea2.png",
+    "static/media/download-19.5eb1aa0a.png": "/pdf/static/media/download-19.5eb1aa0a.png",
+    "static/media/download-20.260debb6.png": "/pdf/static/media/download-20.260debb6.png",
+    "static/media/download-21.904aff76.png": "/pdf/static/media/download-21.904aff76.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e467acbc.js",
+    "static/js/2.0191dde4.chunk.js",
+    "static/css/main.c60b1686.chunk.css",
+    "static/js/main.2f2ee0f5.chunk.js"
+  ]
+}
